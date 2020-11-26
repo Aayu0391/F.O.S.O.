@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food-F.O.S.O.</title>
+
+	<meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="food.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Food</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="food.html" class="nav__link">Food</a></li>
+                        <li class="nav__item"><a href="exercise.html" class="nav__link">Exercise</a></li>
+                        <li class="nav__item"><a href="planner.html" class="nav__link">Planner</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <form class="example" action="action_page.php">
+  			<input type="text" placeholder="Search..." name="search" id="myinput" onkeyup="searchFun()">
+		</form>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Apple</h3>
+                    <p class="text">One serving, or one medium apple, provides about 95 calories, 0 gram fat, 1 gram protein, 25 grams carbohydrate, 19 grams sugar (naturally occurring), and 3 grams fiber.</p>
+                </div>
+                <img class="img" src="apple.jpg">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Pizza</h3>
+                    <p class="text">One large slice (167 grams) of Pizza Hut Pepperoni Lovers Pizza provides Calories: 460, Fat: 26 grams, Carbs: 37 grams, Sugar: 1 gram, Sodium: 900 mg.</p>
+                </div>
+                <img class="img" src="pizza.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Cereal</h3>
+                    <p class="text">A bowl of cereal has: Total Fat 7 g, Cholesterol 0 mg, Sodium 6 mg 0%, Potassium 362 mg, Total Carbohydrate 68 g, Dietary fiber 10 g, Sugar 1 g, Protein 13 g.</p>
+                </div>
+                <img class="img" src="cereal.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Pasta</h3>
+                    <p class="text">A 100g of pasta provides: Calories 131, Total Fat 1.1 g, Cholesterol 33 mg, Sodium 6 mg, Potassium 24 mg, Total Carbohydrate 25 g, Protein 5g. Its a great food which has all the characteristics of a cheat-day food.</p>
+                </div>
+                <img class="img" src="pasta.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Salad(Veg)</h3>
+                    <p class="text">A medium serving of salads have: Energy  58 cal, Protein 1.1 g, Carbohydrates 10.8 g, Fiber   2.9 g, Fat 1.2 g, Cholesterol 0mg.</p>
+                </div>
+                <img class="img" src="salad.png">
+            </div>
+        </div>
+
+        <div id="card-container" class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">CheeseBurger</h3>
+                    <p class="text">A medium sized Cheeseburger ccontaines: Calories: 300cal, Saturated Fat: 6g, Dietary Fiber: 2g, Total Sugars: 7g Cholesterol: 40mg.</p>
+                </div>
+                <img class="img" src="burger.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Whole Wheat Bread</h3>
+                    <p class="text">A regular slice of Whole-Wheat Bread contains: Calories 93cal, Total fat 2 grams, Carbs 17 grams, Protein 3 grams, Fiber 2 grams.</p>
+                </div>
+                <img class="img" src="bread.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Egg</h3>
+                    <p class="text">One egg has only 75 calories but 7 grams of high-quality protein, 5 grams of fat, and 1.6 grams of saturated fat, along with iron, vitamins, minerals, and carotenoids.</p>
+                </div>
+                <img class="img" src="egg.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Rice</h3>
+                    <p class="text">About a 100 grams of rice contain: Calories: 130 calories, Carbohydrates: 28.7 grams, Protein: 2.36 g, Fat 0.19 g. Rice is a great source of Carbohydrates.</p>
+                </div>
+                <img class="img" src="rice.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Soup(Veg)</h3>
+                    <p class="text">A bowl of veg soup contains: Protein  1.1 g, Carbohydrates  3.7 g, Fiber  1 g, Fat  1.5 g, Cholestrol  0mg. It'a a grat cheat meal on Sundays. It also has a lot of body-building nutrients</p>
+                </div>
+                <img class="img" src="soup.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Apricot</h3>
+                    <p class="text">An Apricot has: Calories: 16.8 kcal, Carbohydrate: 3.9 g, Fiber: 0.7 g, Sugar: 3.2, Fat: 0.1 g, Protein: 0.5 g, Vitamin A: 13% RDA, Vitamin C: 6% RDA, Potassium: 3% RDA, Vitamin E: 2% RDA, Phosphorus: 1% RDA</p>
+                </div>
+                <img class="img" src="apricot.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Avocado</h3>
+                    <p class="text">An Avocado has: Calories: 322 kcal, Carbohydrate: 17.1 g, Fiber: 13.5 g, Sugar: 0.2 g, Fat: 29.5 g, Protein: 4 g, Vitamin K: 53% RDA, Folate: 41% RDA, Vitamin C: 33% RDA, Potassium: 28% RDA, Vitamin B5: 28% RDA.</p>
+                </div>
+                <img class="img" src="avocado.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Banana</h3>
+                    <p class="text">A Banana has: Calories: 105 kcal, Carbohydrate: 27.0 g, Fiber: 3.1 g, Sugar: 14.4 g, Fat: 0.4 g,Protein:1.3 g,Vitamin B6: 22% RDA, Vitamin C: 17% RDA, Manganese:16% RDA, Potassium:12% RDA, Magnesium: 8% RDA</p>
+                </div>
+                <img class="img" src="banana.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Blackberries</h3>
+                    <p class="text">Blackberries have: Calories: 43 kcal, Carbohydrate: 10.2 g, Fiber: 5.3 g, Sugar: 4.9 g, Fat: 0.5 g, Protein: 1.4 g, Vitamin C: 35% RDA, Manganese: 32% RDA, Vitamin K: 25% RDA, Copper: 8% RDA, Vitamin E: 6% RDA</p>
+                </div>
+                <img class="img" src="blackberries.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Blackcurrants</h3>
+                    <p class="text">Blackcurrants have: Calories: 63 kcal, Carbohydrate: 15.4 g, Fiber: –, Sugar: –, Fat: 0.4 g, Protein: 1.4 g, Vitamin C: 201% RDA, Vitamin K: 25% RDA, Manganese: 11% RDA, Potassium: 9% RDA, Copper: 10% RDA</p>
+                </div>
+                <img class="img" src="blackcurrants.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Blueberries</h3>
+                    <p class="text">Blueberries have: Calories: 57 kcal, Carbohydrate: 14.5 g, Fiber: 2.4 g, Sugar: 10 g, Fat: 0.3 g, Protein: 0.7 g, Vitamin K: 24% RDA, Manganese: 17% RDA, Vitamin C: 16% RDA, Vitamin B6: 3% RDA, Vitamin E: 3% RDA</p>
+                </div>
+                <img class="img" src="blueberries.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Boysenberries</h3>
+                    <p class="text">Boysenberries have: Calories: 43 kcal, Carbohydrate: 9.6 g, Fiber: 5.3 g, Sugar: 4.3 g, Fat: 0.5 g, Protein: 1.4 g, Vitamin C: 35% RDA, Manganese: 32% RDA, Vitamin K: 25% RDA, Copper: 8% RDA, Vitamin E: 7% RDA</p>
+                </div>
+                <img class="img" src="Boysenberries.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Capers</h3>
+                    <p class="text">Capers have: Calories: 6.4 kcal, Carbohydrate: 1.4 g, Fiber: 0.9 g, Sugar: 0.1 g, Fat: 0.2 g, Protein: 0.7 g, Vitamin K: 9% RDA, Copper: 5% RDA, Iron: 3% RDA, Magnesium: 2% RDA, Folate: 2% RDA</p>
+                </div>
+                <img class="img" src="Capers.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Cherry</h3>
+                    <p class="text">Cherry has: Calories: 50 kcal, Carbohydrate: 12.2 g, Fiber: 1.6 g, Sugar: 8.5 g, Fat: 0.3 g, Protein: 1.0 g, Vitamin A: 26% RDA, Vitamin C: 17% RDA, Manganese: 6% RDA, Potassium: 5% RDA, Copper: 5% RDA</p>
+                </div>
+                <img class="img" src="cherry.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Black Chokeberry</h3>
+                    <p class="text">A Black Chokeberry has: , Calories: 47 kcal, Carbohydrate: 9.6 g, Fiber: 5.3 g, Sugar: 4.3 g, Fat: 0.5 g, Protein: 1.4 g, Vitamin C: 35% RDA, Manganese: 32% RDA, Vitamin K: 17% RDA, Iron: 8% RDA, Vitamin E: 8% RDA</p>
+                </div>
+                <img class="img" src="Black_Chokeberry.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Cranberry</h3>
+                    <p class="text">Cranberry has: Calories: 46 kcal,, Carbohydrate: 12.2 g, Fiber: 4.6 g, Sugar: 4.0 g, Fat: 0.1 g, Protein: 0.4g, Vitamin C: 22% RDA, Manganese: 6% RDA, Vitamin E: 4% RDA, Vitamin K: 4% RDA, Copper: 4% RDA</p>
+                </div>
+                <img class="img" src="cranberry.png">
+            </div>
+        </div>
+        
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Date</h3>
+                    <p class="text">A Date has: Calories: 66.5 kcal, Carbohydrate: 72 g, Fiber: 6.4 g, Sugar: 64 g, Fat: 0 g, Protein: 0.4 g, Potassium: 5% RDA, Copper: 4% RDA, Manganese: 4% RDA, Magnesium: 3% RDA, Vitamin B6: 3% RDA</p>
+                </div>
+                <img class="img" src="date.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Durian</h3>
+                    <p class="text">A Durian has:
+    Calories: 147 kcal
+    Carbohydrate: 27.1g
+    Fiber: 3.8 g
+    Sugar: –
+    Fat: 5.3 g
+    Protein: 1.5 g
+    Vitamin C: 14% RDA
+    Vitamin B1: 6% RDA
+    Vitamin B6: 4% RDA
+    Manganese: 4% RDA
+    Potassium: 4% RDA</p>
+                </div>
+                <img class="img" src="durian.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Elderberry</h3>
+                    <p class="text">An Elderberry has:
+    Calories: 73 kcal
+    Carbohydrate: 18.4 g
+    Fiber: 7 g
+    Sugar: –
+    Fat: 0.5 g
+    Protein: 0.7 g
+    Vitamin C: 60% RDA
+    Vitamin A: 12% RDA
+    Vitamin B6: 11% RDA
+    Iron: 9% RDA
+    Potassium: 8% RDA</p>
+                </div>
+                <img class="img" src="elder.jpg">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Goji Berries</h3>
+                    <p class="text">Goji Berries Have: 
+    Calories: 98 kcal
+    Carbohydrate: 22 g
+    Fiber: 3.6 g
+    Sugar: 13 g
+    Fat: 0.1 g
+    Protein: 4 g
+    Vitamin A: 50% RDA
+    Copper: 28% RDA
+    Selenium: 25% RDA
+    Vitamin B2: 21% RDA
+    Iron: 14% RDA</p>
+                </div>
+                <img class="img" src="goji.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Golden Berries</h3>
+                    <p class="text">Golden Berries have: 
+    Calories: 53 kcal
+    Carbohydrate: 11.2 g
+    Fiber: –
+    Sugar: –
+    Fat: 0.7 g
+    Protein: 1.9 g
+    Vitamin C: 18% RDA
+    Vitamin A: 14% RDA
+    Vitamin B3: 14% RDA
+    Vitamin B1: 7% RDA
+    Iron: 6% RDA</p>
+                </div>
+                <img class="img" src="golden.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Onions (Red)</h3>
+                    <p class="text">Red Onions contain:
+    Calories: 43 kcal
+    Carbohydrate: 9.0 g
+    Fiber: 2.0 g
+    Sugar: 4.0g
+    Fat: 0 g
+    Protein: 1.0 g. 
+Red onions are a milder and slightly sweeter as these have anthocyanins.</p>
+                </div>
+                <img class="img" src="redonion.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Potato</h3>
+                    <p class="text">A Potato has:
+    Calories: 77 kcal
+    Carbohydrate: 18.4 g
+    Fiber: 2.2 g
+    Sugar: 0.8g
+    Fat: 0.1 g
+    Protein: 2.0 g
+    Vitamin C: 33% RDA
+    Vitamin B6: 15% RDA
+    Potassium: 12% RDA
+    Manganese: 8% RDA
+    Phosphorus: 6% RDA</p>
+                </div>
+                <img class="img" src="potato.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Mushroom</h3>
+                    <p class="text">A Mushroom has: 
+    Calories: 27 kcal
+    Carbohydrate: 16.1 g
+    Fiber: 0.6 g
+    Sugar: 1.7g
+    Fat: 0.1 g
+    Protein: 2.5 g
+    Selenium: 37% RDA
+    Vitamin B2: 29% RDA
+    Copper: 25% RDA
+    Vitamin B3: 19% RDA
+    Vitamin B5: 15% RDA</p>
+                </div>
+                <img class="img" src="mushroom.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Lettuce</h3>
+                    <p class="text">Lettuce has: 
+    Calories: 151 kcal
+    Carbohydrate: 2.8 g
+    Fiber: 1.3 g
+    Sugar: 0.8g
+    Fat: 0.2 g
+    Protein: 1.4 g
+    Vitamin K1: 141% RDA
+    Vitamin A: 148% RDA
+    Vitamin C: 30% RDA
+    Manganese: 130% RDA
+    Folate: 10% RDA</p>
+                </div>
+                <img class="img" src="lettuce.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Cabbage</h3>
+                    <p class="text">Cabbage has: 
+    Calories: 25 kcal
+    Carbohydrate: 5.8 g
+    Fiber: 2.5 g
+    Sugar: 3.2 g
+    Fat: 0.1 g
+    Protein: 1.3 g
+    Vitamin K1: 95% RDA
+    Vitamin C: 61% RDA
+    Folate: 11% RDA
+    Manganese: 8% RDA
+    Vitamin B6: 6% RDA</p>
+                </div>
+                <img class="img" src="cabbage.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Carrot</h3>
+                    <p class="text">A Carrot has:
+    Calories: 41 kcal
+    Carbohydrate: 9.6 g
+    Fiber: 2.8 g
+    Sugar: 4.7 g
+    Fat: 0.2 g
+    Protein: 0.9 g
+    Vitamin A: 334% RDA
+    Vitamin K1: 16% RDA
+    Vitamin C: 10% RDA
+    Potassium: 9% RDA
+    Vitamin B6: 7% RDA</p>
+                </div>
+                <img class="img" src="carrot.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Cauliflower</h3>
+                    <p class="text">A Cauliflower has: 
+    Calories: 25 kcal
+    Carbohydrate: 5.3 g
+    Fiber: 2.5 g
+    Sugar: 2.4 g
+    Fat: 0.1 g
+    Protein: 2.0 g
+    Vitamin C: 77% RDA
+    Vitamin K1: 20% RDA
+    Folate: 14% RDA
+    Vitamin B6: 11% RDA
+    Potassium: 9% RDA</p>
+                </div>
+                <img class="img" src="cauliflower.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Onion(Yellow)</h3>
+                    <p class="text">An Onion has:
+    Calories: 40 kcal
+    Carbohydrate: 9.3 g
+    Fiber: 1.7 g
+    Sugar: 4.2g
+    Fat: 0.1 g
+    Protein: 1.1 g
+    Vitamin C: 12% RDA
+    Vitamin B6: 6% RDA
+    Manganese: 6% RDA
+    Folate: 5% RDA
+    Potassium: 4% RDA</p>
+                </div>
+                <img class="img" src="yellowonion.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Okra</h3>
+                    <p class="text">Okra has: 
+    Calories: 31 kcal
+    Carbohydrate: 7.0 g
+    Fiber: 3.2 g
+    Sugar: 1.2g
+    Fat: 0.2 g
+    Protein: 2.0 g
+    Vitamin K1: 66% RDA
+    Manganese: 50% RDA
+    Vitamin C: 35% RDA
+    Folate: 22% RDA
+    Magnesium: 14% RDA</p>
+                </div>
+                <img class="img" src="okra.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Kimchi</h3>
+                    <p class="text">Kimchi is a staple korean diet food which has:  
+    Calories: 15 kcal
+    Carbohydrate: 2.4 g
+    Fat: 0.5 g
+    Protein: 1.1 g
+    Kimchi provides a mix of vegetables and spices alongside probiotic bacteria.</p>
+                </div>
+                <img class="img" src="kimchi.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Spring Onion</h3>
+                    <p class="text">Green Onion (Spring Onion) has: 
+    Calories: 25 kcal
+    Carbohydrate: 5.6 g
+    Fiber: 3.5 g
+    Sugar: 2.1 g
+    Fat: 0.1 g
+    Protein: 1.8 g
+    Vitamin K1: 209% RDA
+    Vitamin A: 80% RDA
+    Vitamin C: 76% RDA
+    Iron: 11% RDA
+    Vitamin B2: 8% RDA</p>
+                </div>
+                <img class="img" src="springonion.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Garlic</h3>
+                    <p class="text">Garlic has:
+    Calories: 149 kcal
+    Carbohydrate: 33.1 g
+    Fiber: 2.1 g
+    Sugar: 1.0 g
+    Fat: 0.5 g
+    Protein: 6.4 g
+    Manganese: 84% RDA
+    Vitamin B6: 62% RDA
+    Vitamin C: 52% RDA
+    Selenium: 20% RDA
+    Calcium: 18% RDA</p>
+                </div>
+                <img class="img" src="garlic.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Eggplant (Aubergine)</h3>
+                    <p class="text">Eggplant has:
+    Calories: 24 kcal
+    Carbohydrate: 5.7 g
+    Fiber: 3.4 g
+    Sugar: 2.4 g
+    Fat: 0.2 g
+    Protein: 1.0 g
+    Manganese: 13% RDA
+    Potassium: 7% RDA
+    Folate: 5% RDA
+    Vitamin C: 4% RDA
+    Copper: 4% RDA</p>
+                </div>
+                <img class="img" src="eggplant.png">
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="content">
+                    <h3 id="data">Tomato</h3>
+                    <p class="text">A Tomato has:
+    Calories: 22.1 kcal
+    Carbohydrate: 4.8 g
+    Fiber: 1.5 g
+    Sugar: 3.2 g
+    Fat: 0.2 g
+    Protein: 1.1 g
+    Vitamin C: 26% RDA
+    Vitamin A: 20% RDA
+    Vitamin K: 12% RDA
+    Potassium: 8% RDA
+    Manganese: 7% RDA</p>
+                </div>
+                <img class="img" src="tomato.png">
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+</body>
+</html>

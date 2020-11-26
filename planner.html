@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planner-F.O.S.O.</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" type="text/css" href="food.css">
+
+    <link rel="stylesheet" type="text/css" href="planner.css">
+
+    <script type="text/javascript" src="planner.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Planner</a>
+                </div>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="food.html" class="nav__link">Food</a></li>
+                        <li class="nav__item"><a href="exercise.html" class="nav__link">Exercise</a></li>
+                        <li class="nav__item"><a href="planner.html" class="nav__link">Planner</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div id="myDIV" class="header">
+            <h3>Planner</h3>
+          <input type="text" id="myInput" placeholder="Title...">
+          <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+
+        <ul id="myUL">
+        </ul>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+</body>
+</html>
